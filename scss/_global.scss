@@ -78,3 +78,104 @@ p.lead {
     }
   }
 }
+
+// FOR BLOG SECTION
+
+.blog-wrapper {
+  // font-size: 90px;
+  display: table !important;
+  height: 100% !important;
+  width: 100% !important;
+  .container-fostrap {
+    display: table-cell !important;
+    padding: 1em !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+  .fostrap-logo {
+    width: 100px !important;
+    margin-bottom:15px
+  }
+  h1.heading {
+    color: #fff !important;
+    font-size: 1.15em !important;
+    font-weight: 900 !important;
+    margin: 0 0 0.5em !important;
+    color: #505050 !important;
+  }
+  .card {
+    display: block !important; 
+      margin-bottom: 20px !important;
+      line-height: 1.42857143 !important;
+      background-color: #fff !important;
+      border-radius: 2px !important;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important; 
+      transition: box-shadow .25s !important; 
+  }
+  .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  }
+  .img-card {
+    width: 100% !important;
+    height:200px !important;
+    border-top-left-radius:2px !important;
+    border-top-right-radius:2px !important;
+    display:block !important;
+      overflow: hidden !important;
+  }
+  .img-card img{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit:cover !important; 
+    transition: all .25s ease !important;
+  } 
+  .card-content {
+    padding:15px !important;
+    text-align:left !important;
+  }
+  .card-title {
+    margin-top:0px !important;
+    font-weight: 700 !important;
+    font-size: 1.65em !important;
+  }
+  .card-title a {
+    color: #000 !important;
+    text-decoration: none !important !important;
+  }
+  .card-read-more {
+    border-top: 1px solid #D4D4D4 !important;
+  }
+  .card-read-more a {
+    text-decoration: none !important !important;
+    padding:10px !important;
+    font-weight:600 !important;
+    text-transform: uppercase !important;
+  }
+}
+
+
+@media (min-width: 450px) {
+  .blog-wrapper {
+    h1.heading {
+      font-size: 3.55em !important;
+    }
+  }
+ 
+}
+@media (min-width: 760px) {
+  .blog-wrapper {
+    h1.heading {
+      font-size: 3.05em !important;
+    }
+  }
+ 
+}
+@media (min-width: 900px) {
+  .blog-wrapper {
+    h1.heading {
+      font-size: 3.25em !important;
+      margin: 0 0 0.3em !important;
+    }
+  }
+} 
+
